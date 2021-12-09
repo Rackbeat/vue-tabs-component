@@ -2,8 +2,7 @@
     <section v-show="isActive"
              :aria-hidden="! isActive"
              class="tabs-component-panel"
-             role="tabpanel"
-	     :id="computedId">
+             role="tabpanel">
         <div class="tab-anchor">
             <slot />
         </div>

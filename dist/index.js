@@ -385,8 +385,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "tabs-component-panel",
     attrs: {
       "aria-hidden": !_vm.isActive,
-      "role": "tabpanel",
-      "id": _vm.computedId
+      "role": "tabpanel"
     }
   }, [_c('div', {
     staticClass: "tab-anchor"
